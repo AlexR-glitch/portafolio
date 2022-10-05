@@ -1,0 +1,155 @@
+.CCuerpo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4FA172;
+}
+.CCuerpo .CCTexto {
+  width: 100%;
+  height: 100%;
+  padding: 6rem 3rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CCuerpo .CCTexto .CTitular {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+  color: #FFFFFF;
+  width: 90%;
+}
+.CCuerpo .CCTexto .CCCuerpo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 90%;
+  text-align: justify;
+}
+.CCuerpo .CCTexto .CCCuerpo strong {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+.container_stats {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container_stats .stats {
+  width: 40%;
+  height: 400px;
+  opacity: none;
+  background: #333333;
+  padding: 0.8rem;
+  border-radius: 0.9rem;
+  filter: opacity(0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_stats .stats .card {
+  width: 90%;
+  background: none;
+  border-style: none;
+  color: #FFFFFF;
+}
+.container_stats .stats .card .card-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.7rem;
+  padding: 0;
+  margin: 0;
+}
+.container_stats .stats .card .skills {
+  padding: 0.2rem 0;
+}
+.container_stats .stats .card .label {
+  font-size: 0.8rem;
+}
+.container_stats .stats .card .skillYears {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .CCuerpo {
+    height: 100vh;
+    padding-top: 70px;
+  }
+  .CCuerpo .CCTexto {
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+  }
+  .CCuerpo .CCTexto .CTitular {
+    font-size: 4.5rem;
+  }
+  .CCuerpo .CCTexto .CCCuerpo {
+    font-size: 1.5rem;
+  }
+  .CCuerpo .CCTexto .CCCuerpo strong {
+    font-size: 1.6rem;
+  }
+  .container_stats .stats {
+    width: 45%;
+    height: 425px;
+    padding: 0.2rem;
+  }
+  .container_stats .stats .card .card-title {
+    font-size: 2rem;
+  }
+  .container_stats .stats .card .label {
+    font-size: 1.2rem;
+  }
+  .container_stats .stats .card .skillYears {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .CCuerpo {
+    height: auto;
+    padding-top: 70px;
+  }
+  .CCuerpo .CCTexto {
+    padding: 1.5rem 0.9rem 0.9rem 0.9rem;
+  }
+  .CCuerpo .CCTexto .CTitular {
+    font-size: 4.5rem;
+  }
+  .CCuerpo .CCTexto .CCCuerpo {
+    font-size: 1.2rem;
+  }
+  .CCuerpo .CCTexto .CCCuerpo strong {
+    font-size: 1.3rem;
+  }
+  .container_stats {
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .container_stats .stats {
+    width: 90%;
+    height: 425px;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .container_stats .stats .card .card-title {
+    font-size: 2rem;
+  }
+  .container_stats .stats .card .label {
+    font-size: 1.2rem;
+  }
+  .container_stats .stats .card .skillYears {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=about.css.map */
